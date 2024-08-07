@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rak Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="pageTitle">BOOKSHELF</h1>
+    <div class="searchInput">
+        <h3>Masukkan Judul Buku</h3>
+        <input type="text" onkeyup="searchBook()" id="searchBookValue">
+    </div>
+    <div class="fContainer">
+        <div class="inputForm">
+            <h2>Daftarkan Buku</h2>
+            <p>Judul Buku</p>
+            <input type="text" id="titleBook"><br>
+            <p>Penulis</p>
+            <input type="text" id="writerBook"><br>
+            <input type="month" id="timeBook"><br>
+            <p>Selesai dibaca <input type="checkbox" id="inputcheckbox"></p><br>
+            <input type="submit" value="Submit" id="submitButton">
+        </div>
+        <div id="bookLoadSection" class="bookLoaded">
+            <div class="unReadSection">
+                <h2>Belum Baca</h2>
+                <div class="loadUnread" id="loadUnRead">
+
+                </div>
+            </div>
+            <div class="readSection">
+                <h2>Sudah Baca</h2>
+                <div class="loadRead">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

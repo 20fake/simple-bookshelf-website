@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pageTitle {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inputForm {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookLoaded {
+    display: flex;
+}
+
+.bookList > h3 {
+    margin-top: 10px;
+}
+
+.unReadSection {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loadUnread {
+    display: flex;
+    flex-direction: column;
+}
+
+.readSection {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
